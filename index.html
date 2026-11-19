@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#153952">
+  <meta name="description" content="確認してから、撃とう。看護師国家試験の解剖生理5問で学ぶ、ナース・スカイパトロール。">
+  <title>ナース・スカイパトロール | 必修・解剖生理</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23153952'/%3E%3Cpath d='M26 13h12v13h13v12H38v13H26V38H13V26h13z' fill='%237be0ce'/%3E%3C/svg%3E">
+  <style>@charset "UTF-8";
+:root{--ink:#153952;--teal:#137f80;--mint:#8ce4ce;--yellow:#ffe076;--coral:#f67f69;--paper:#fffef5;--sky:#b7e5ef;font-family:"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,system-ui,sans-serif;color:var(--ink);font-synthesis:none}
+*{box-sizing:border-box}body{margin:0;background:#d7f1f3}button,a{-webkit-tap-highlight-color:transparent}button{font:inherit;color:inherit;cursor:pointer}button{touch-action:manipulation}button:disabled{cursor:default}button:focus-visible,a:focus-visible{outline:3px solid #005ec9;outline-offset:5px}button{border:0}button svg{pointer-events:none}button:hover:not(:disabled){filter:brightness(1.035)}[hidden]{display:none!important}.svg-defs{position:absolute;width:0;height:0;overflow:hidden}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}#app{min-height:100svh;display:flex;flex-direction:column}.hud{position:relative;z-index:3;min-height:100px;padding:20px 4.5%;display:flex;align-items:center;gap:30px;background:var(--paper);border-bottom:3px solid var(--ink)}.brand{display:flex;align-items:center;gap:11px;text-align:left;background:none;padding:0;flex-shrink:0}.brand-icon{display:grid;place-items:center;width:44px;height:44px;background:var(--ink);color:var(--mint);font-size:36px;border-radius:12px;line-height:1}.brand>span:last-child{font-size:12px;line-height:1.3;letter-spacing:2px;font-weight:800}.brand b{font-size:16px;letter-spacing:1px}.hud-mission{padding-left:28px;border-left:1px solid #c2ced0;display:flex;flex-direction:column;gap:5px}.eyebrow{font-size:11px;letter-spacing:2px;font-weight:800}.hud-mission>strong{font-size:16px}.edition{font-size:13px;font-weight:500;margin-left:8px}.hud-stats{display:flex;gap:34px;margin-left:auto}.score,.card-status{display:flex;flex-direction:column;gap:5px}.score>span,.card-status>span{font-size:12px;font-weight:700;letter-spacing:1px}.score>b{font:800 29px/1.1 ui-monospace,monospace;letter-spacing:3px}#cards{display:flex;gap:7px;padding-top:2px}#cards i{width:20px;height:27px;border:2px solid #b9c6c8;border-radius:4px;display:block;background:#e8eeeb;transform:rotate(-8deg)}#cards i:last-child{transform:rotate(8deg)}#cards i.active{background:var(--yellow);border-color:var(--ink);box-shadow:2px 2px 0 var(--ink)}#cards i.danger{background:var(--coral)}.icon-button{height:43px;width:48px;display:flex;flex-direction:column;align-items:center;justify-content:center;background:transparent;border:1px solid #c2ced0;border-radius:10px;gap:0}.icon-button #sound-icon{font-size:21px;line-height:1}#sound-label{font-size:10px;font-weight:800;letter-spacing:1px}.sky{position:relative;flex:1;isolation:isolate;overflow:hidden;background:linear-gradient(180deg,#a9dfe9 0%,#caedf0 70%,#a8ddde 100%);min-height:595px}.sky-grain{position:absolute;inset:0;z-index:-1;opacity:.18;background-image:radial-gradient(#4a8ca0 .7px,transparent .7px);background-size:7px 7px}.sky-orbit{position:absolute;width:1000px;height:1000px;border:2px dashed #4a9da226;border-radius:50%;left:26%;top:-640px;z-index:-1}.cloud{position:absolute;width:260px;height:100px;color:#effafb;opacity:.8;z-index:-1;animation:cloud-drift 24s linear infinite}.cloud-a{left:-75px;top:20%}.cloud-b{right:-50px;top:60%;width:350px}.cloud-c{top:3%;left:39%;width:200px;opacity:.45;animation-delay:-12s}.cloud-d{bottom:-15px;left:20%;width:450px;height:130px;opacity:.5;animation-delay:-8s}.island{position:absolute;border-radius:45%;background:#80c5ba;box-shadow:0 12px 0 #76b8ae,0 24px 0 #dfc88b,0 33px 0 #c3b57d;z-index:-1;transform:rotate(-25deg);border:3px solid #6ab4ad}.island-a{right:6%;top:30%;width:180px;height:68px}.island-b{left:1%;bottom:13%;width:120px;height:50px;transform:rotate(18deg)}.island span{display:block;text-align:center;position:relative;top:-22px;font-size:55px;color:#448e83;text-shadow:9px 3px #b3dfb3}.sky-star{position:absolute;z-index:-1;color:#fff8c9}.star-a{left:50%;top:15%;font-size:55px}.star-b{right:5%;top:10%;font-size:32px}.star-c{left:45%;top:65%;font-size:45px}.intro{position:relative;max-width:1320px;width:100%;margin:auto;padding:53px 5.5% 28px;display:grid;grid-template-columns:1.25fr 1fr;align-items:center;gap:15px}.intro-copy{z-index:1}.tag{display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:1.1px;font-weight:800;border:1.5px solid var(--ink);border-radius:30px;padding:8px 13px;background:#ffffff70}.tag>span{width:7px;height:7px;background:var(--teal);border-radius:50%}.intro-kicker{font-weight:800;font-size:20px;letter-spacing:2px;margin:27px 0 7px}.intro h1{font-size:clamp(40px,3.95vw,58px);font-weight:950;letter-spacing:-2px;line-height:1.3;margin:0;text-shadow:2px 3px #eaf7ed}.intro h1>span{white-space:nowrap}.intro-description{font-size:16px;line-height:1.85;margin:18px 0 23px;font-weight:500}.primary-button{display:inline-flex;align-items:center;justify-content:center;gap:18px;font-size:19px;font-weight:850;color:var(--paper);background:var(--ink);border:2px solid var(--ink);border-radius:12px;padding:17px 23px;box-shadow:0 5px 0 #0b2536;transition:transform .15s,box-shadow .15s}.primary-button:active{transform:translateY(3px);box-shadow:0 2px 0 #0b2536}.button-spark{color:var(--yellow);font-size:23px}.button-key{font-size:10px;letter-spacing:1px;border:1px solid #74909d;border-radius:4px;padding:5px;color:#cbdee3}.start-note{font-size:12px;margin-top:16px;color:#365f70}.start-note span{padding:0 6px}.hero-art{position:relative;height:355px;align-self:start;margin-top:40px}.hero-ring{position:absolute;border-radius:50%;width:335px;height:335px;left:50%;top:0;transform:translateX(-50%);border:1px solid #fbffffb3;background:#def5f233;box-shadow:0 0 0 32px #effbf324,0 0 0 65px #e9f7ed1a}.hero-ring:before{content:"";position:absolute;inset:18px;border:2px dashed #73b9bf88;border-radius:50%}.hero-craft{position:absolute;width:300px;height:300px;left:50%;top:32px;transform:translateX(-50%) rotate(9deg);filter:drop-shadow(0 15px 0 #2f79940a);animation:hero-float 4s ease-in-out infinite}.hero-enemy{position:absolute;z-index:2;width:110px;height:90px;animation:bob 4s ease-in-out infinite}.enemy-left{left:-12px;top:39px;transform:rotate(-14deg);--enemy:#ffb485;--wing:#f0e6a1}.enemy-right{right:-25px;bottom:17px;transform:rotate(14deg);--enemy:#a4a9e6;--wing:#f8acb5;animation-delay:-2s}.hero-orbit-text{position:absolute;left:48%;top:-14px;transform:translateX(-50%) rotate(-9deg);font-size:11px;letter-spacing:3px;font-weight:800;white-space:nowrap}.art-sticker{position:absolute;right:2%;top:0;z-index:2;background:var(--yellow);border:2px solid var(--ink);border-radius:50%;height:81px;width:81px;display:grid;place-content:center;font-size:16px;font-weight:900;line-height:1.05;letter-spacing:1px;transform:rotate(13deg);box-shadow:2px 3px 0 var(--ink)}.briefing{grid-column:1/-1;display:flex;justify-content:space-between;gap:25px;border-top:1px solid #639eab77;padding-top:24px;margin-top:20px}.briefing>div{display:flex;gap:12px;align-items:center}.rule-symbol{display:grid;place-items:center;width:43px;height:43px;border:2px solid var(--ink);border-radius:12px;font:800 26px ui-monospace,monospace;flex-shrink:0}.mint{background:var(--mint)}.yellow{background:var(--yellow)}.blue{background:#a9cef3}.briefing p{margin:0;display:flex;flex-direction:column;gap:4px}.briefing b{font-size:15px}.briefing p span{font-size:12px;color:#376071}.console{background:var(--paper);border-top:3px solid var(--ink);z-index:2;position:relative;padding:0 4.5%}.idle-console{display:flex;align-items:center;gap:10px;justify-content:center;padding:18px 0;font-size:14px;font-weight:600}.console-dot{background:var(--teal);width:7px;height:7px;border-radius:50%;box-shadow:0 0 0 4px #d8eeea}.console-bottom{border-top:1px solid #d5dfdd;display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:39px;font-size:11px;letter-spacing:.3px;color:#526b73}.console-bottom>div{display:flex;align-items:center;gap:12px}.console-bottom button{background:transparent;padding:5px 0;font-size:12px}.console-bottom button:hover{text-decoration:underline}.version{font:11px ui-monospace,monospace;letter-spacing:1px}.play{max-width:1160px;margin:auto;padding:22px 35px 0;position:relative}.mission-line{display:flex;align-items:center;justify-content:space-between;max-width:840px;margin:0 auto 14px;font-size:13px;font-weight:800;letter-spacing:1px}.mission-line>span:first-child{background:#ffffff8c;padding:5px 11px;border-radius:6px;min-width:90px;text-align:center}.progress{display:flex;gap:6px}.progress i{display:block;width:24px;height:6px;border-radius:2px;background:#80b7c2}.progress i.current{background:var(--ink)}.progress i.correct{background:#168576}.progress i.wrong{background:#d57442}.progress i.skip{background:#fcf7e7}.question-panel{max-width:840px;margin:auto;background:var(--paper);border:2px solid var(--ink);border-radius:15px;padding:20px 27px 16px;box-shadow:0 5px 0 #6ba7b0;position:relative}.question-label{font:800 11px ui-monospace,monospace;letter-spacing:1.8px;color:var(--teal);display:block;margin-bottom:9px}.question-label b{margin-left:4px}.question-panel h2{font-size:23px;line-height:1.55;margin:0 0 7px;letter-spacing:.2px}.question-panel p{font-size:11px;margin:0;color:#60747b}.aim-instruction{text-align:center;font-size:13px;margin:20px 0 15px;font-weight:600}.enemies{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;position:relative;z-index:1}.enemy-button{background:none;position:relative;padding:0 0 4px;min-width:0;display:flex;flex-direction:column;align-items:center;transition:opacity .2s;--enemy:#ff957f;--wing:#ffe4a3}.enemy-button:nth-child(2){--enemy:#abb4ec;--wing:#f3b5cd}.enemy-button:nth-child(3){--enemy:#f8cd78;--wing:#99d9ce}.enemy-button:nth-child(4){--enemy:#7ccab9;--wing:#aac7ee}.answer-label{display:flex;align-items:center;gap:9px;width:100%;min-height:77px;border:2px solid var(--ink);background:var(--paper);border-radius:12px;padding:12px 12px;text-align:left;font-size:16px;font-weight:750;box-shadow:0 4px 0 #699dab;position:relative;transition:background .15s,transform .15s}.answer-label:after{content:"";position:absolute;width:10px;height:10px;bottom:-7px;left:50%;background:var(--paper);border-right:2px solid var(--ink);border-bottom:2px solid var(--ink);transform:rotate(45deg)}.answer-number{display:grid;place-items:center;border:1px solid #becdcd;border-radius:6px;min-width:25px;height:27px;font:800 15px ui-monospace,monospace}.enemy-ship{width:140px;height:106px;margin-top:15px;animation:bob 3s ease-in-out infinite}.enemy-button:nth-child(even) .enemy-ship{animation-delay:-1.5s}.enemy-button.selected .answer-label{background:var(--yellow);transform:translateY(-3px);box-shadow:0 6px 0 var(--ink)}.enemy-button.selected .answer-label:after{background:var(--yellow)}.enemy-button.selected .answer-number{background:var(--ink);color:var(--yellow);border-color:var(--ink)}.reticle{position:absolute;width:114px;height:94px;border:2px solid transparent;bottom:3px;border-radius:20px;opacity:0;background:linear-gradient(var(--ink),var(--ink)) left top/18px 3px no-repeat,linear-gradient(var(--ink),var(--ink)) left top/3px 18px no-repeat,linear-gradient(var(--ink),var(--ink)) right top/18px 3px no-repeat,linear-gradient(var(--ink),var(--ink)) right top/3px 18px no-repeat,linear-gradient(var(--ink),var(--ink)) left bottom/18px 3px no-repeat,linear-gradient(var(--ink),var(--ink)) left bottom/3px 18px no-repeat,linear-gradient(var(--ink),var(--ink)) right bottom/18px 3px no-repeat,linear-gradient(var(--ink),var(--ink)) right bottom/3px 18px no-repeat}.selected .reticle{opacity:1}.enemy-button.hit .enemy-ship{animation:pop-out .45s forwards}.enemy-button.hit .reticle{opacity:0}.enemy-button.hit .answer-label{background:#d3f5df}.enemy-button.hit.wrong .answer-label{background:#ffd5b0}.enemy-button:disabled{opacity:1}.flight-zone{position:relative;height:133px;max-width:100%;margin:3px 0 0}.player{position:absolute;left:50%;transform:translateX(-50%);bottom:-3px;width:118px;height:118px;transition:left .25s ease-out}.flight-trail{position:absolute;height:105px;width:2px;background:repeating-linear-gradient(to bottom,#75b6bd 0,#75b6bd 6px,transparent 6px,transparent 16px);bottom:0;left:50%;opacity:.4}.flight-note{position:absolute;bottom:20px;right:15px;text-align:right;letter-spacing:2px;font:11px/1.7 ui-monospace,monospace;color:#407c87}.play-console{min-height:96px;display:flex;align-items:center;gap:15px}.console-tip{margin-right:auto;display:flex;flex-direction:column;gap:7px}.console-tip b{font-size:14px}.console-tip span{font-size:11px;color:#60737c}.hint-button{display:flex;align-items:center;gap:9px;background:#e2f2ed;border:2px solid #97b9b2;border-radius:10px;padding:13px 17px;font-size:16px;font-weight:700;box-shadow:0 3px 0 #bdd1ca}.hint-button>b{font:800 20px ui-monospace,monospace;border:2px solid var(--teal);border-radius:50%;width:25px;height:25px;color:var(--teal)}.hint-button>span{font-size:11px;font-weight:500}.fire-button{display:flex;align-items:center;justify-content:center;gap:10px;font-size:18px;font-weight:800;background:var(--coral);border:2px solid var(--ink);border-radius:10px;padding:15px 21px;box-shadow:0 4px 0 var(--ink)}.fire-button kbd{font-size:10px;border:1px solid #9f6254;border-radius:3px;padding:3px}.fire-button:disabled{background:#e0e5e0;color:#748789;border-color:#b0bfbd;box-shadow:0 3px 0 #c0cdca}.fire-button:not(:disabled):active{transform:translateY(2px);box-shadow:0 2px 0 var(--ink)}.shot{position:absolute;width:7px;height:28px;background:#fffcd6;border:2px solid #e49c44;border-radius:8px;box-shadow:0 0 15px #fff2ae;z-index:6;transform:translate(-50%,-50%)}.burst{position:absolute;font-size:75px;color:var(--yellow);text-shadow:3px 3px var(--ink);z-index:6;transform:translate(-50%,-50%);animation:burst .5s forwards;pointer-events:none}dialog{border:2px solid var(--ink);border-radius:18px;padding:0;max-width:540px;width:calc(100% - 32px);background:var(--paper);color:var(--ink);box-shadow:0 8px 0 #15395233;max-height:calc(100svh - 40px)}dialog::backdrop{background:#173e53a8;backdrop-filter:blur(4px)}.dialog-body{padding:30px}.dialog-top{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-bottom:18px}.dialog-kicker{font:800 12px ui-monospace,monospace;letter-spacing:1.5px;color:var(--teal)}.close-button{width:33px;height:33px;background:#e5efea;border-radius:50%;font-size:22px;line-height:1}.dialog-body h2{font-size:25px;line-height:1.5;margin:0 0 14px}.dialog-body p{font-size:16px;line-height:1.85;margin:12px 0}.dialog-body .small{font-size:13px;color:#557078;line-height:1.7}.hint-box{border:1px solid #9fbeb4;border-left:4px solid var(--teal);background:#e8f3eb;padding:16px 18px;border-radius:8px;font-size:17px;line-height:1.8;margin:18px 0}.hint-box b{display:block;font-size:12px;color:var(--teal);letter-spacing:1px;margin-bottom:6px}.dialog-actions{display:flex;gap:10px;margin-top:23px;flex-wrap:wrap}.dialog-actions button{font-size:16px;font-weight:700;padding:13px 16px;border-radius:9px;border:2px solid var(--ink)}.dialog-actions .main-action{background:var(--ink);color:var(--paper);flex:1}.dialog-actions .secondary-action{background:#e5f0e9}.text-button{display:block;background:none;text-decoration:underline;font-size:13px;padding:7px 0;margin-top:10px;text-underline-offset:4px}.feedback-badge{display:grid;place-items:center;margin:0 auto 18px;width:68px;height:68px;border:2px solid var(--ink);border-radius:18px;background:var(--mint);font-size:38px;box-shadow:3px 3px 0 var(--ink)}.feedback-badge.warning{background:var(--yellow);border-radius:8px;width:48px;transform:rotate(-8deg)}.feedback-badge.over{background:var(--coral)}.feedback-title{text-align:center}.correct-answer{border-top:1px solid #cbd8ce;border-bottom:1px solid #cbd8ce;padding:13px 0;margin:17px 0;font-size:16px;line-height:1.6}.correct-answer>span{font-size:12px;color:var(--teal);display:block;margin-bottom:5px}.explanation-label{font-size:12px;color:var(--teal);font-weight:800;letter-spacing:1px}.yellow-note{border-radius:8px;background:#fff0bf;padding:12px!important;font-size:14px!important;font-weight:600}.sources-list{font-size:14px;line-height:1.8;padding-left:22px}.sources-list li{margin:8px 0}.sources-list a{color:var(--teal);text-underline-offset:3px}.result{max-width:850px;margin:30px auto;padding:32px 36px;background:var(--paper);border:2px solid var(--ink);border-radius:18px;box-shadow:0 6px 0 #72aeb5;position:relative}.result .result-head{text-align:center}.result-kicker{font:800 12px ui-monospace,monospace;letter-spacing:3px;color:var(--teal)}.result h2{font-size:30px;margin:10px 0}.result-subtitle{font-size:15px;line-height:1.8;margin:8px 0 22px}.result-stats{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid #bfcfca;border-radius:12px;overflow:hidden;margin:22px 0}.result-stat{padding:16px 8px;text-align:center;border-right:1px solid #bfcfca;background:#eff6ed}.result-stat:last-child{border:0}.result-stat>b{font:800 28px ui-monospace,monospace;display:block;margin-bottom:7px}.result-stat>span{font-size:12px}.review-title{font-size:15px;margin:24px 0 8px}.review-list{display:grid;gap:0}.review-list details{border-bottom:1px solid #ccd8d0;padding:12px 0;font-size:14px}.review-list summary{cursor:pointer;display:flex;gap:10px;align-items:center;list-style:none}.review-list summary:after{content:"＋";margin-left:auto;color:var(--teal);font-size:18px}.review-list details[open] summary:after{content:"−"}.review-dot{font-size:17px;font-weight:800;color:#14816d;min-width:20px}.review-dot.wrong{color:#bc592d}.review-dot.skip{color:#507f9e}.review-dot.unseen{color:#a0afaf}.review-topic{font-weight:700;flex:1}.review-status{font-size:12px}.review-list details p{font-size:14px;line-height:1.8;margin:12px 0 0}.review-list .review-answer{font-weight:700}.result-actions{display:flex;align-items:center;justify-content:center;gap:22px;margin-top:25px}.result-actions .primary-button{font-size:16px;padding:13px 21px}.mode-result .sky{min-height:600px}.mode-result .idle-console{padding:13px 0}.motion-paused .cloud,.motion-paused .enemy-ship{animation-play-state:paused}
+@keyframes cloud-drift{0%{transform:translateY(-25px)}100%{transform:translateY(85px)}}@keyframes hero-float{0%,100%{transform:translateX(-50%) translateY(0) rotate(9deg)}50%{transform:translateX(-50%) translateY(-13px) rotate(5deg)}}@keyframes bob{0%,100%{translate:0 0}50%{translate:0 -6px}}@keyframes pop-out{0%{scale:1;opacity:1}30%{scale:1.15;opacity:1;filter:brightness(3)}100%{scale:.2;opacity:0}}@keyframes burst{0%{scale:.2;opacity:1}70%{scale:1.4;opacity:1}100%{scale:1.8;opacity:0}}
+@media(min-width:1450px){.sky{display:flex;align-items:center}.intro{padding-top:55px;padding-bottom:40px}.play{width:1160px;padding-top:30px}.hero-art{height:400px}.hero-craft{width:330px;height:330px}.hero-ring{width:370px;height:370px}.flight-zone{height:160px}.enemies{margin-top:15px}}
+@media(max-width:1000px){.hud{padding:17px 3%;gap:20px}.hud-mission{padding-left:20px}.edition{display:none}.hud-stats{gap:23px}.intro{padding:40px 5% 25px;grid-template-columns:1.3fr 1fr}.intro h1{font-size:40px}.hero-art{height:300px;margin-top:55px}.hero-ring{width:260px;height:260px}.hero-craft{width:250px;height:250px;top:15px}.hero-enemy{width:85px}.enemy-right{right:-20px;bottom:5px}.enemy-left{left:-10px;top:8px}.art-sticker{width:66px;height:66px;font-size:14px;right:-10px;top:-25px}.hero-orbit-text{font-size:10px;letter-spacing:2px}.briefing{gap:12px;margin-top:30px}.briefing b{font-size:14px}.briefing p span{font-size:11px}.rule-symbol{width:36px;height:36px}.enemies{gap:12px}.answer-label{font-size:15px;gap:7px;padding:9px}.play{padding:20px 24px 0}.console{padding:0 3%}.console-tip b{font-size:13px}.console-tip span{font-size:10px}.fire-button{padding:14px 16px;font-size:16px}.hint-button{padding:12px 13px;font-size:15px}.hint-button>span{display:none}}
+@media(max-width:720px){.hud{min-height:79px;padding:13px 18px;gap:13px}.brand-icon{width:34px;height:34px;font-size:28px;border-radius:9px}.brand{gap:8px}.brand>span:last-child{font-size:9px;letter-spacing:1px}.brand b{font-size:12px}.hud-mission{display:none}.hud-stats{gap:18px}.score>b{font-size:22px;letter-spacing:2px}.score>span,.card-status>span{font-size:10px;letter-spacing:0}#cards{gap:5px}#cards i{width:15px;height:21px}.icon-button{width:34px;height:36px;border-radius:8px}.sky{min-height:620px}.intro{padding:27px 23px 23px;display:block;max-width:600px}.intro-copy{position:relative}.tag{font-size:10px;letter-spacing:.4px;padding:7px 10px}.intro-kicker{font-size:16px;margin:22px 0 9px;letter-spacing:1px}.intro h1{font-size:clamp(32px,6.4vw,42px);line-height:1.35;letter-spacing:-1px}.intro-description{font-size:14px;line-height:1.8;max-width:68%;margin:16px 0 24px}.hero-art{position:absolute;right:2%;top:126px;width:38%;height:220px;margin:0;z-index:-1}.hero-ring{width:160px;height:160px;top:22px;box-shadow:0 0 0 17px #effbf324}.hero-ring:before{inset:10px}.hero-craft{width:170px;height:170px;top:32px}.hero-orbit-text,.enemy-left{display:none}.enemy-right{width:70px;height:60px;right:-5px;bottom:3px}.art-sticker{width:45px;height:45px;right:5px;top:3px;font-size:10px;border-width:1.5px;box-shadow:1px 2px 0 var(--ink)}.primary-button{font-size:17px;padding:14px 18px;gap:15px}.button-key{display:none}.start-note{font-size:10px;margin-top:14px}.briefing{margin-top:25px;padding-top:19px;display:grid;gap:14px}.briefing>div{gap:12px}.briefing p{flex-direction:row;gap:10px;align-items:center}.briefing b{font-size:13px}.briefing p span{font-size:11px}.rule-symbol{width:29px;height:29px;font-size:19px;border-radius:7px}.cloud-a{top:45%;width:180px}.cloud-b{width:230px}.island-a{width:100px;height:40px;top:35%}.island-b{bottom:4%;width:80px;height:30px}.star-a{left:80%;top:9%;font-size:28px}.idle-console{font-size:12px;padding:14px 0;gap:8px}.console-bottom{font-size:10px;gap:5px;flex-wrap:wrap;justify-content:center;padding:9px 0;min-height:50px}.console-bottom>span:first-child{display:none}.console-bottom button{font-size:11px}.console-bottom>div{gap:9px}.version{font-size:9px;margin-left:auto}.console{padding:0 18px}.play{padding:17px 18px 0;max-width:600px}.mission-line{font-size:11px;margin-bottom:11px}.mission-line>span:first-child{min-width:75px;padding:5px 8px}.progress i{width:18px}.question-panel{padding:15px 17px 13px;border-radius:12px}.question-panel h2{font-size:19px;line-height:1.55}.question-label{font-size:10px;margin-bottom:7px}.question-panel p{font-size:10px}.aim-instruction{font-size:11px;line-height:1.5;margin:17px 0 10px}.enemies{grid-template-columns:repeat(2,1fr);gap:13px 15px}.answer-label{min-height:61px;font-size:14px;padding:9px 10px;gap:8px;box-shadow:0 3px 0 #699dab}.answer-number{min-width:22px;height:24px;font-size:13px}.enemy-ship{height:65px;width:89px;margin-top:7px}.reticle{height:61px;width:81px;bottom:2px;border-radius:12px}.flight-zone{height:90px;margin:0}.player{width:88px;height:88px}.flight-note{font-size:9px;bottom:15px;right:0}.play-console{min-height:110px;gap:10px;flex-wrap:wrap;justify-content:center;padding:10px 0 15px}.console-tip{width:100%;margin:0;text-align:center}.console-tip b{font-size:11px}.console-tip span{display:none}.hint-button{flex:1;font-size:14px;padding:11px 9px;justify-content:center;gap:6px}.hint-button>b{width:21px;height:21px;font-size:16px}.fire-button{flex:1.25;font-size:15px;padding:13px 10px;gap:7px}.fire-button kbd{display:none}.mode-play .sky{min-height:550px}.dialog-body{padding:24px 21px}.dialog-body h2{font-size:23px}.dialog-body p{font-size:15px}.hint-box{font-size:16px;padding:13px 15px}.dialog-actions{gap:8px}.dialog-actions button{font-size:14px;padding:12px 10px}.result{margin:20px 16px;padding:26px 20px}.result h2{font-size:25px}.result-subtitle{font-size:14px}.result-stats{grid-template-columns:repeat(2,1fr)}.result-stat:nth-child(2){border-right:0}.result-stat:nth-child(-n+2){border-bottom:1px solid #bfcfca}.result-stat>b{font-size:25px}.review-status{font-size:11px}.result-actions{gap:15px;flex-direction:column}.result-actions .text-button{margin:0}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important;transition:none!important}.enemy-button.hit .enemy-ship{opacity:0}.burst{display:none}}
+</style>
+  <style>/* Flying world, moving targets, and a lock-on HUD. */
+#flight-world{position:absolute;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none}
+.sky .cloud,.sky .island{display:none}
+.sky{background:linear-gradient(180deg,#8dcfdf 0%,#b9e8e9 54%,#99d9db 100%)}
+.sky-orbit{display:none}
+.sky-grain{opacity:.07}
+.flight-readout{position:absolute;left:20px;bottom:13px;display:flex;align-items:center;gap:8px;z-index:1;color:#306e7b;font:800 10px ui-monospace,monospace;letter-spacing:1.4px;pointer-events:none}
+.flight-light{width:5px;height:5px;border-radius:50%;background:#167b6b;box-shadow:0 0 0 3px #fff9}
+.flight-bars{height:12px;display:flex;align-items:flex-end;gap:3px;opacity:.7}
+.flight-bars i{display:block;width:3px;background:#397e8b;animation:flight-meter 1.3s ease-in-out infinite alternate}
+.flight-bars i:nth-child(1){height:5px;animation-delay:-.4s}.flight-bars i:nth-child(2){height:8px;animation-delay:-.8s}.flight-bars i:nth-child(3){height:11px;animation-delay:-.2s}.flight-bars i:nth-child(4){height:7px;animation-delay:-.6s}
+.flight-boost .flight-readout{color:#116c66}.flight-boost .flight-bars i{background:#136c63}
+.mode-intro .flight-readout{opacity:.65;font-size:9px;left:12px;bottom:9px}
+.mode-result .flight-readout{opacity:.45}
+.hero-craft{animation:hero-patrol 4.4s ease-in-out infinite;filter:drop-shadow(14px 24px 11px #26768c3d)}
+.hero-enemy{animation:scout-patrol 3.3s ease-in-out infinite;transform-origin:50% 60%}
+.enemy-left{animation-delay:-.6s}.enemy-right{animation-delay:-2s}
+.flame{transform-box:fill-box;transform-origin:50% 0;animation:flame-thrust .19s ease-in-out infinite alternate}
+.flight-zone{height:149px;overflow:visible}
+.flight-trail{display:none}
+.player-rig{position:absolute;left:50%;bottom:-1px;width:136px;height:136px;transform:translateX(-50%);transform-origin:50% 55%;will-change:transform,left;pointer-events:none;transform-style:preserve-3d}
+.player-rig .player{position:relative;display:block;left:auto;bottom:auto;transform:none;width:100%;height:100%;transition:none;z-index:2;filter:drop-shadow(7px 15px 5px #19465b44)}
+.engine-plume{position:absolute;top:69%;left:50%;width:24px;height:67px;transform:translateX(-50%);z-index:1;filter:drop-shadow(0 0 5px #d8faffaa);transform-origin:50% 0}
+.engine-plume>i{position:absolute;inset:0;border-radius:25% 25% 55% 55%;background:linear-gradient(#baffef 0%,#9de7efaa 35%,#d6fcff00 95%);animation:engine-burn .17s ease-in-out infinite alternate}
+.engine-plume>i:nth-child(2){left:6px;right:6px;bottom:17px;background:linear-gradient(#fffde8,#e1fbfddd);animation-delay:-.09s}
+.engine-plume>i:nth-child(3){inset:0 9px 30px;background:#fffdf1;animation-delay:-.13s}
+.wing-trail{position:absolute;width:3px;height:47px;top:65%;background:linear-gradient(#e8ffffb3,#e8ffff00);border-radius:2px;animation:wing-stream .45s ease-in-out infinite alternate;z-index:0}
+.wing-trail-left{left:14%}.wing-trail-right{right:14%;animation-delay:-.2s}
+.flight-boost .engine-plume{height:98px;width:27px}.flight-boost .wing-trail{height:71px}
+.firing .player{animation:gun-recoil .13s ease-out 3}
+.flight-note{bottom:22px;font-size:10px;letter-spacing:1.5px}
+.enemies{gap:22px;padding:4px 0 10px}
+.enemy-button{will-change:transform;transition:filter .15s;transform-origin:50% 70%}
+.enemy-button:hover:not(:disabled) .answer-label{border-color:#1b6f79}
+.enemy-body{position:relative;display:grid;place-items:center;width:150px;height:117px;margin-top:15px;transform:rotate(var(--enemy-bank,0deg));transform-origin:center;isolation:isolate}
+.enemy-body .enemy-ship{width:140px;height:106px;margin:0;animation:none;position:relative;z-index:1;filter:drop-shadow(5px 11px 4px #1a52614d)}
+.enemy-exhaust{position:absolute;width:32px;height:43px;left:50%;top:70%;transform:translateX(-50%);z-index:0;background:linear-gradient(#e1fff2ba,#e2fdfb00);clip-path:polygon(0 0,100% 0,72% 100%,49% 62%,25% 100%);animation:engine-burn .28s ease-in-out infinite alternate}
+.enemy-button:nth-child(even) .enemy-exhaust{animation-delay:-.15s}
+.reticle{inset:3px auto auto 50%;width:130px;height:104px;margin-left:-65px;border-radius:13px;z-index:3;bottom:auto;transform:none;transition:opacity .12s}
+.reticle i{position:absolute;border:1px dashed #15395260;width:80px;height:80px;left:50%;top:50%;margin:-40px 0 0 -40px;border-radius:50%;animation:target-spin 7s linear infinite}
+.reticle i:before,.reticle i:after{content:"";position:absolute;background:#15395299;left:50%;top:50%;transform:translate(-50%,-50%)}
+.reticle i:before{width:17px;height:1px}.reticle i:after{height:17px;width:1px}
+.reticle>b{position:absolute;left:50%;bottom:-15px;transform:translateX(-50%);white-space:nowrap;padding:3px 7px;border-radius:4px;background:var(--ink);color:#fff9bf;font:800 9px ui-monospace,monospace;letter-spacing:1.5px}
+.enemy-button.acquiring .reticle{animation:lock-contract .42s cubic-bezier(.2,.8,.2,1) both}
+.enemy-button.acquiring .reticle i{animation:target-spin .42s ease-out both}
+.enemy-button.locked .reticle{opacity:1;filter:drop-shadow(0 0 3px #fff9)}
+.enemy-button.locked .reticle i{border:1px solid #176e62a6;animation:target-spin 12s linear infinite}
+.enemy-button.locked .reticle>b{color:#c8ffdf;background:#12594e;box-shadow:0 2px 0 #fff8}
+.enemy-button.selected .answer-label{box-shadow:0 5px 0 var(--ink);transform:translateY(-2px)}
+.enemy-button.locked .answer-number{background:#12594e;border-color:#12594e;color:#d7ffe6}
+.enemy-button.hit .enemy-ship{animation:enemy-breakup .52s cubic-bezier(.2,.7,.4,1) forwards}
+.enemy-button.hit .reticle,.enemy-button.hit .enemy-exhaust{opacity:0}
+.enemy-button.hit .answer-label{background:#d3f5df}.enemy-button.hit.wrong .answer-label{background:#ffd5b0}
+.enemy-button.hit .answer-label:after{background:inherit}
+#effects{position:absolute;inset:0;pointer-events:none;overflow:visible;z-index:5}
+.homing-shot{width:7px;height:32px;border:1px solid #248f9c;border-radius:8px;background:#e9fff2;box-shadow:0 0 6px #fff,0 9px 14px #41bcc1aa}
+.homing-shot:after{content:"";position:absolute;left:1px;right:1px;top:26px;height:28px;border-radius:3px;background:linear-gradient(#99efecbb,transparent)}
+.burst{font-size:77px;animation:impact-flower .65s ease-out forwards;pointer-events:none}
+.impact-ring{position:absolute;width:20px;height:20px;border:4px solid #fffbd2;border-radius:50%;transform:translate(-50%,-50%);animation:impact-wave .65s ease-out forwards;box-shadow:0 0 0 1px #eec76b;pointer-events:none}
+.impact-particle{position:absolute;width:7px;height:12px;border:1px solid #bd8e48;border-radius:2px;background:#ffe57d;animation:debris-scatter .75s cubic-bezier(.1,.65,.3,1) forwards;pointer-events:none}
+.impact-particle.mint-particle{background:#dcfff1;border-color:#5baea1;width:5px;height:7px}
+.floating-points{position:absolute;color:#fff7c4;text-shadow:2px 2px 0 #153952,-1px -1px 0 #153952,1px -1px 0 #153952;font:900 31px ui-monospace,monospace;letter-spacing:1px;animation:points-rise .9s ease-out forwards;white-space:nowrap;pointer-events:none}
+.points-warning{color:#ffdb72;font-size:37px}
+.motion-paused .hero-craft,.motion-paused .hero-enemy,.motion-paused .flame,.motion-paused .flight-bars i,.motion-paused .engine-plume i,.motion-paused .wing-trail,.motion-paused .enemy-exhaust,.motion-paused .reticle,.motion-paused .reticle i{animation-play-state:paused}
+@keyframes hero-patrol{0%,100%{transform:translateX(-50%) translate(-13px,5px) perspective(700px) rotateX(15deg) rotateY(-22deg) rotateZ(-8deg) scale(.96)}35%{transform:translateX(-50%) translate(17px,-15px) perspective(700px) rotateX(24deg) rotateY(18deg) rotateZ(10deg) scale(1.06)}70%{transform:translateX(-50%) translate(24px,2px) perspective(700px) rotateX(10deg) rotateY(10deg) rotateZ(4deg) scale(1.02)}}
+@keyframes scout-patrol{0%,100%{translate:-7px 3px;rotate:-5deg}50%{translate:11px -13px;rotate:7deg}}
+@keyframes flame-thrust{from{transform:scaleY(.75)}to{transform:scaleY(1.16)}}
+@keyframes engine-burn{from{scale:.9 .8;opacity:.7}to{scale:1.1 1.12;opacity:1}}
+@keyframes wing-stream{from{opacity:.4;scale:1 .8}to{opacity:.9;scale:1 1.1}}
+@keyframes flight-meter{from{scale:1 .55;opacity:.5}to{scale:1 1;opacity:1}}
+@keyframes gun-recoil{0%{translate:0 0}35%{translate:0 6px}100%{translate:0 0}}
+@keyframes lock-contract{0%{scale:1.7;rotate:-22deg;opacity:0}20%{opacity:1}75%{scale:.94;rotate:3deg}100%{scale:1;rotate:0;opacity:1}}
+@keyframes target-spin{to{rotate:360deg}}
+@keyframes enemy-breakup{0%{scale:1;opacity:1}18%{scale:1.16;filter:brightness(1.8)}100%{scale:.15;rotate:40deg;opacity:0;translate:12px 25px}}
+@keyframes impact-flower{0%{scale:.15;rotate:0;opacity:1}45%{scale:1.25;rotate:40deg;opacity:1}100%{scale:1.6;rotate:65deg;opacity:0}}
+@keyframes impact-wave{0%{scale:.3;opacity:1}100%{scale:7;opacity:0;border-width:1px}}
+@keyframes debris-scatter{0%{transform:translate(-50%,-50%);opacity:1}75%{opacity:1}100%{transform:translate(calc(-50% + var(--dx)),calc(-50% + var(--dy))) rotate(var(--turn));opacity:0}}
+@keyframes points-rise{0%{transform:translate(-50%,10px) scale(.65);opacity:0}22%{transform:translate(-50%,-10px) scale(1.08);opacity:1}75%{opacity:1}100%{transform:translate(-50%,-70px) scale(1);opacity:0}}
+@media(max-width:1000px){.enemies{gap:18px}.enemy-body{width:130px}}
+@media(max-width:720px){
+  .enemies{gap:18px 19px;padding:3px 0 13px}
+  .enemy-body{width:100px;height:74px;margin-top:11px}
+  .enemy-body .enemy-ship{width:89px;height:65px}
+  .enemy-exhaust{width:22px;height:28px;top:65%}
+  .reticle{width:88px;height:66px;margin-left:-44px;top:0;border-radius:8px}
+  .reticle i{width:48px;height:48px;margin:-24px 0 0 -24px}
+  .reticle>b{bottom:-10px;font-size:8px;padding:2px 5px;letter-spacing:1px}
+  .flight-zone{height:110px}.player-rig{width:102px;height:102px;bottom:0}
+  .engine-plume{width:18px;height:50px}.flight-boost .engine-plume{height:68px;width:21px}
+  .wing-trail{height:30px}.flight-boost .wing-trail{height:47px}
+  .flight-readout{font-size:8px;left:15px;bottom:12px;gap:6px;letter-spacing:1px}
+  .flight-note{font-size:8px;bottom:13px;letter-spacing:1px}
+  .mode-intro .flight-readout{display:none}
+  .floating-points{font-size:27px}.points-warning{font-size:30px}
+}
+@media(prefers-reduced-motion:reduce){
+  .hero-craft,.hero-enemy,.flame,.flight-bars i,.engine-plume i,.wing-trail,.enemy-exhaust,.reticle,.reticle i,.player{animation:none!important;transition:none!important}
+  .flight-bars,.engine-plume,.wing-trail{display:none}
+  .enemy-button.hit .enemy-ship{opacity:0;animation:none!important}
+  .enemy-button.acquiring .reticle{opacity:1;scale:1;rotate:0}
+  .floating-points,.impact-particle,.impact-ring{display:none}
+}
+</style>
+</head>
+<body>
+<svg class="svg-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+  <linearGradient id="craft-hull-depth" x1="0%" y1="0%" x2="100%" y2="20%"><stop offset="0" stop-color="#79b8c3"/><stop offset=".25" stop-color="#d9eee2"/><stop offset=".5" stop-color="#fffef2"/><stop offset=".76" stop-color="#e4e9d9"/><stop offset="1" stop-color="#8ab4bc"/></linearGradient>
+  <linearGradient id="craft-wing-depth" x1="0%" y1="0%" x2="30%" y2="100%"><stop offset="0" stop-color="#ffb48d"/><stop offset=".5" stop-color="#f78270"/><stop offset="1" stop-color="#b85865"/></linearGradient>
+  <linearGradient id="canopy-depth" x1="0%" y1="0%" x2="80%" y2="100%"><stop offset="0" stop-color="#4b94a4"/><stop offset=".4" stop-color="#254d69"/><stop offset="1" stop-color="#10253f"/></linearGradient>
+  <symbol id="craft" viewBox="0 0 220 220">
+    <ellipse cx="110" cy="197" rx="62" ry="12" fill="#153952" opacity=".13"/>
+    <path class="flame" d="M88 159L96 202 110 185 124 202 132 159" fill="#ffcc64" stroke="#153952" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M60 80L23 137Q15 154 33 156L76 142M160 80L197 137Q205 154 187 156L144 142" fill="url(#craft-wing-depth)" stroke="#153952" stroke-width="5"/>
+    <path d="M110 17C75 17 58 71 58 111Q58 165 110 169Q162 165 162 111C162 71 145 17 110 17Z" fill="url(#craft-hull-depth)" stroke="#153952" stroke-width="5"/>
+    <path d="M110 18Q81 21 69 67H151Q139 21 110 18Z" fill="#80ddcf" stroke="#153952" stroke-width="5"/>
+    <path d="M110 27v26M97 40h26" stroke="#153952" stroke-width="8" stroke-linecap="round"/>
+    <rect x="70" y="78" width="80" height="51" rx="25" fill="url(#canopy-depth)" stroke="#153952" stroke-width="2"/>
+    <path d="M83 89Q100 81 127 88" stroke="#77bdd2" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="94" cy="106" rx="5" ry="7" fill="white"/><ellipse cx="127" cy="106" rx="5" ry="7" fill="white"/>
+    <path d="M99 143Q110 150 121 143" fill="none" stroke="#153952" stroke-width="4" stroke-linecap="round"/>
+    <path d="M60 130H77V155H60ZM143 130H160V155H143Z" fill="#80ddcf" stroke="#153952" stroke-width="4"/>
+    <path d="M29 135L45 111M175 111L191 135" stroke="#fffbee" stroke-width="6" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="enemy" viewBox="0 0 160 120">
+    <ellipse cx="80" cy="108" rx="43" ry="7" fill="#153952" opacity=".12"/>
+    <path d="M38 52L13 72 23 92 57 82M122 52L147 72 137 92 103 82" fill="var(--wing,#ffdb73)" stroke="#153952" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M49 34L41 16M111 34L119 16" stroke="#153952" stroke-width="4"/>
+    <circle cx="39" cy="13" r="6" fill="#fffbee" stroke="#153952" stroke-width="3"/><circle cx="121" cy="13" r="6" fill="#fffbee" stroke="#153952" stroke-width="3"/>
+    <rect x="34" y="30" width="92" height="66" rx="30" fill="var(--enemy,#ff957f)" stroke="#153952" stroke-width="4"/>
+    <path d="M40 72Q47 97 80 96Q115 97 121 74Q95 89 40 72Z" fill="#153952" opacity=".2"/>
+    <path d="M47 45Q60 29 88 36" fill="none" stroke="#fffef3" stroke-width="6" stroke-linecap="round" opacity=".65"/>
+    <rect x="47" y="45" width="66" height="30" rx="15" fill="url(#canopy-depth)" stroke="#153952" stroke-width="1.5"/>
+    <path d="M59 54L66 59 59 64M101 54L94 59 101 64" fill="none" stroke="#fffbee" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M69 84H91" stroke="#153952" stroke-width="3" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="cloud" viewBox="0 0 240 90"><path d="M25 79C-6 79-6 41 22 38C20 3 77-6 95 26C116 7 153 20 151 44C181 21 215 39 211 57C252 57 251 79 221 79Z" fill="currentColor"/></symbol>
+</defs></svg>
+<main id="app" class="mode-intro">
+  <header class="hud">
+    <button class="brand" id="home-button" aria-label="タイトルへ戻る"><span class="brand-icon">✚</span><span>NURSE<br><b>SKY PATROL</b></span></button>
+    <div class="hud-mission"><span class="eyebrow">TRAINING MISSION 01</span><strong>必修・解剖生理 <span class="edition">5問チャレンジ</span></strong></div>
+    <div class="hud-stats"><div class="score"><span>SCORE</span><b id="score">0000</b></div><div class="card-status"><span>誤答カード</span><div id="cards" aria-label="誤答0回、2回でゲームオーバー"><i></i><i></i></div></div></div>
+    <button id="sound" class="icon-button" aria-label="効果音をオンにする" aria-pressed="false"><span id="sound-icon">♪</span><span id="sound-label">OFF</span></button>
+  </header>
+  <section class="sky" id="sky" aria-label="ゲーム画面">
+    <canvas id="flight-world" aria-hidden="true"></canvas>
+    <div class="flight-readout" aria-hidden="true"><span class="flight-light"></span><span id="flight-status">CRUISING</span><span class="flight-bars"><i></i><i></i><i></i><i></i></span></div>
+    <div class="sky-grain"></div>
+    <div class="sky-orbit"></div>
+    <svg class="cloud cloud-a" aria-hidden="true"><use href="#cloud"/></svg><svg class="cloud cloud-b" aria-hidden="true"><use href="#cloud"/></svg><svg class="cloud cloud-c" aria-hidden="true"><use href="#cloud"/></svg><svg class="cloud cloud-d" aria-hidden="true"><use href="#cloud"/></svg>
+    <div class="island island-a" aria-hidden="true"><span>✦</span></div><div class="island island-b" aria-hidden="true"><span>✦</span></div>
+    <div class="sky-star star-a" aria-hidden="true">✧</div><div class="sky-star star-b" aria-hidden="true">✦</div><div class="sky-star star-c" aria-hidden="true">✧</div>
+    <section id="intro" class="intro">
+      <div class="intro-copy">
+        <div class="tag"><span></span> 看護師国家試験 × DEPTH FLIGHT</div>
+        <p class="intro-kicker">確認してから、撃とう。</p>
+        <h1>ナース・<br><span>スカイパトロール</span></h1>
+        <p class="intro-description">知識と、立ち止まる勇気を乗せて。<br>奥行きのある空へ、5問のパトロール。</p>
+        <button class="primary-button" id="start"><span class="button-spark">✦</span> パトロール開始 <span class="button-key">ENTER</span></button>
+        <p class="start-note">時間制限なし <span>·</span> タップ・マウス・キーボード対応</p>
+      </div>
+      <div class="hero-art" aria-hidden="true"><div class="hero-ring"></div><div class="hero-orbit-text">CHECK FIRST. FLY SAFE.</div><svg class="hero-enemy enemy-left"><use href="#enemy"/></svg><svg class="hero-enemy enemy-right"><use href="#enemy"/></svg><svg class="hero-craft"><use href="#craft"/></svg><span class="art-sticker">LET'S<br>LEARN!</span></div>
+      <div class="briefing"><div><span class="rule-symbol mint">◎</span><p><b>正解の敵を撃つ</b><span>1問正解で100ポイント</span></p></div><div><span class="rule-symbol yellow">!</span><p><b>誤答2回で終了</b><span>1回目はイエローカード</span></p></div><div><span class="rule-symbol blue">?</span><p><b>迷ったらヒント</b><span>「わからない」は減点なし</span></p></div></div>
+    </section>
+    <section id="play" class="play" hidden aria-label="クイズに回答">
+      <div class="mission-line"><span id="topic">睡眠</span><div class="progress" id="progress"></div><span id="question-count">01 / 05</span></div>
+      <div class="question-panel"><span class="question-label">QUESTION <b id="question-number">01</b></span><h2 id="question"></h2><p id="question-source"></p></div>
+      <div class="aim-instruction" id="aim-instruction">動く敵を選んでロックオン。内容を確認してから発射</div>
+      <div class="enemies" id="enemies" role="group" aria-label="回答の敵を選ぶ"></div>
+      <div class="flight-zone" id="flight-zone"><div class="flight-trail"></div><div id="player-rig" class="player-rig" aria-hidden="true"><div class="engine-plume"><i></i><i></i><i></i></div><svg id="player" class="player"><use href="#craft"/></svg><span class="wing-trail wing-trail-left"></span><span class="wing-trail wing-trail-right"></span></div><span class="flight-note">AUTO TRACKING<br>CHECK BEFORE FIRE.</span></div>
+      <div id="effects" aria-hidden="true"></div>
+    </section>
+    <section id="result" class="result" hidden tabindex="-1"></section>
+  </section>
+  <footer class="console">
+    <div id="idle-console" class="idle-console"><span class="console-dot"></span><span>わからない時に確認する。それも、大切な判断。</span></div>
+    <div id="play-console" class="play-console" hidden><div class="console-tip"><b id="selection-label">まだ照準を合わせていません</b><span>1〜4：選択　Space：発射　H：ヒント</span></div><button class="hint-button" id="hint"><b>?</b> わからない <span>ヒント</span></button><button class="fire-button" id="fire" disabled><span>◎</span> この敵を撃つ <kbd>SPACE</kbd></button></div>
+    <div class="console-bottom"><span>第115回 看護師国家試験から選定</span><div><button id="howto">遊び方</button><span>／</span><button id="sources">問題・出典について</button></div><span class="version">PROTOTYPE 03 · 2.5D</span></div>
+  </footer>
+</main>
+<dialog id="dialog"><div class="dialog-body" id="dialog-body"></div></dialog>
+<div class="sr-only" id="announce" role="status" aria-live="polite"></div>
+<script>
+(()=>{
+const official = 'https://www.mhlw.go.jp/seisakunitsuite/bunya/kenkou_iryou/iryou/topics/';
+const sources = {
+  page: official + 'tp260424-03_04_05.html',
+  am: official + 'dl/tp260424-05a_01.pdf',
+  pm: official + 'dl/tp260424-05c_01.pdf',
+  answers: official + 'dl/tp260424-05seitou.pdf',
+  terms: 'https://www.mhlw.go.jp/chosakuken/',
+  license: 'https://www.digital.go.jp/resources/open_data/public_data_license_v1.0',
+  classification: 'https://mail.hws-kyokai.or.jp/publishing/eiesei-kangoshiken-main/eiesei-kangoshiken-hissyu1.html'
+};
+const questions = [
+  {
+    id:'115-am-03',topic:'睡眠',session:'午前',number:3,question:'レム睡眠の特徴はどれか。',
+    options:['骨格筋が緊張する。','急速な眼球運動を伴う。','体熱の放散が増加する。','大脳皮質の活動が低下する。'],answer:1,
+    hints:['REMという名前が、ある身体の動きに由来することを思い出しましょう。','REMは Rapid Eye Movement の略です。どの部位の動きでしょう。'],
+    explanation:'レム睡眠は急速な眼球運動が特徴です。脳の活動は覚醒時に近く、骨格筋の緊張は低下します。体温調節も通常どおりには働きません。',
+    point:'REM＝急速眼球運動。筋緊張は低下。',
+    reference:'https://www.nhlbi.nih.gov/health/sleep/stages-of-sleep',referenceName:'米国国立心肺血液研究所：睡眠の段階'
+  },
+  {
+    id:'115-am-11',topic:'血液・止血',session:'午前',number:11,question:'止血機構を有するのはどれか。',
+    options:['血漿','細胞内液','脳脊髄液','リンパ液'],answer:0,
+    hints:['血液が固まるためには、血小板に加えて凝固因子が必要です。','フィブリノゲンなどの凝固因子を含む、血液の液体成分を考えましょう。'],
+    explanation:'血漿にはフィブリノゲンなどの凝固因子が含まれ、血小板とともに止血を支えます。この設問では、止血に働く血液の液体成分である血漿を選びます。',
+    point:'血漿には、血液を固める凝固因子が含まれる。',
+    reference:'https://www.redcrossblood.org/donate-blood/how-to-donate/types-of-blood-donations/blood-components.html',referenceName:'米国赤十字：血液の成分'
+  },
+  {
+    id:'115-pm-06',topic:'胎児循環',session:'午後',number:6,question:'胎児の卵円孔の位置で正しいのはどれか。',
+    options:['右心室と左心室の間','右心房と左心房の間','肺動脈と大動脈の間','臍静脈と下大静脈の間'],answer:1,
+    hints:['胎児では、肺を経由しない血液の通り道があります。心臓内の左右をつなぐ孔です。','卵円孔は、血液を受け入れる左右の部屋をつなぎます。「心房」と「心室」を区別しましょう。'],
+    explanation:'卵円孔は右心房と左心房の間にあり、胎児では右心房から左心房へ血液が流れます。肺動脈と大動脈をつなぐのは動脈管、臍静脈側から下大静脈へつながるのは静脈管です。',
+    point:'卵円孔＝右心房と左心房の間。',
+    reference:'https://www.chop.edu/conditions-diseases/fetal-circulation',referenceName:'フィラデルフィア小児病院：胎児循環'
+  },
+  {
+    id:'115-pm-11',topic:'摂食の調節',session:'午後',number:11,question:'摂食中枢が存在する部位はどれか。',
+    options:['延髄','小脳','下垂体','視床下部'],answer:3,
+    hints:['空腹や体温など、体内の状態を調節する脳の部位を考えましょう。','下垂体とつながり、食欲や自律神経・内分泌の調節に関わる部位です。'],
+    explanation:'摂食中枢は視床下部にあります。視床下部は空腹や満腹に関わる情報を受け取り、摂食行動や体内の恒常性の調節に関与します。',
+    point:'摂食中枢は視床下部。',
+    reference:'https://nba.uth.tmc.edu/neuroscience/m/s4/chapter04.html',referenceName:'UTHealth：視床下部・摂食行動'
+  },
+  {
+    id:'115-pm-12',topic:'脊髄神経',session:'午後',number:12,question:'脊髄神経で頸神経の対の数はどれか。',
+    options:['1対','5対','8対','12対'],answer:2,
+    hints:['頸椎という骨の数と、頸神経の対の数は同じではありません。','頸神経はC1からC8まであります。左右で1対として数えます。'],
+    explanation:'頸神経はC1〜C8の8対です。頸椎は7個なので混同しないようにします。脊髄神経は頸8・胸12・腰5・仙骨5・尾骨1の計31対です。',
+    point:'頸椎は7個、頸神経は8対。',
+    reference:'https://www.aans.org/patients/conditions-treatments/anatomy-of-the-spine-and-peripheral-nervous-system/',referenceName:'米国脳神経外科学会：脊椎・末梢神経の解剖'
+  }
+];
+
+class GameRun {
+  constructor(questions) {
+    if (!questions.length) throw new Error('Questions are required');
+    this.questions=questions; this.index=0; this.score=0; this.mistakes=0;
+    this.hintLevel=0; this.selected=null; this.phase='playing'; this.records=[];
+  }
+  get question() { return this.questions[this.index]; }
+  select(index) {
+    if(this.phase!=='playing'||!Number.isInteger(index)||index<0||index>=this.question.options.length)return false;
+    this.selected=index;return true;
+  }
+  hint() {
+    if(this.phase!=='playing')return false;
+    this.hintLevel=Math.min(this.hintLevel+1,this.question.hints.length);return true;
+  }
+  submit() {
+    if(this.phase!=='playing'||this.selected===null)return null;
+    const correct=this.selected===this.question.answer;
+    if(correct)this.score+=100;else this.mistakes++;
+    const record={id:this.question.id,index:this.index,selected:this.selected,type:correct?'correct':'wrong',hintLevel:this.hintLevel};
+    this.records.push(record);this.phase=this.mistakes>=2?'gameover':'feedback';return record;
+  }
+  skip() {
+    if(this.phase!=='playing')return null;
+    const record={id:this.question.id,index:this.index,selected:null,type:'skip',hintLevel:this.hintLevel};
+    this.records.push(record);this.phase='feedback';return record;
+  }
+  advance() {
+    if(this.phase!=='feedback')return false;
+    if(this.index===this.questions.length-1){this.phase='complete';return true;}
+    this.index++;this.selected=null;this.hintLevel=0;this.phase='playing';return true;
+  }
+  get stats() {
+    return {correct:this.records.filter(r=>r.type==='correct').length,
+      withHint:this.records.filter(r=>r.type==='correct'&&r.hintLevel>0).length,
+      checked:this.records.filter(r=>r.type==='skip').length,
+      mistakes:this.mistakes,score:this.score};
+  }
+}
+
+// Perspective-projected scenery and dimensional sprites. No external assets.
+const clamp=(value,min,max)=>Math.max(min,Math.min(max,value));
+const wrap=(value,size)=>((value%size)+size)%size;
+class FlightScene {
+  constructor(canvas,rig,zone,status) {
+    this.canvas=canvas;this.ctx=canvas.getContext('2d');this.rig=rig;this.zone=zone;this.status=status;
+    this.motion=matchMedia('(prefers-reduced-motion: reduce)');
+    this.mode='intro';this.paused=false;this.time=0;this.distance=0;this.speed=1;this.boostRemaining=0;
+    this.targets=[];this.targetIndex=null;this.position=.5;this.destination=.5;this.bank=0;this.formationAge=10;
+    this.width=1000;this.height=650;this.previous=0;this.shake=0;this.raf=0;
+    this.resize=()=>{
+      const bounds=canvas.getBoundingClientRect();this.width=Math.max(bounds.width,1);this.height=Math.max(bounds.height,1);
+      const dpr=Math.min(window.devicePixelRatio||1,2);canvas.width=Math.round(this.width*dpr);canvas.height=Math.round(this.height*dpr);
+      if(this.ctx)this.ctx.setTransform(dpr,0,0,dpr,0,0);
+      this.paint();
+    };
+    this.observer=new ResizeObserver(this.resize);this.observer.observe(canvas);
+    this.motion.addEventListener('change',()=>{this.position=.5;this.destination=.5;this.paint();});
+    const tick=now=>{
+      const dt=this.previous?Math.min((now-this.previous)/1000,.045):0;this.previous=now;
+      if(!this.paused&&!document.hidden){
+        const moving=!this.motion.matches;
+        if(moving){this.time+=dt;this.distance+=dt*58*this.speed;this.formationAge+=dt;}
+        this.boostRemaining=Math.max(0,this.boostRemaining-dt);
+        const desired=this.mode==='result'?.35:this.boostRemaining>0?3.4:1;
+        this.speed+=(desired-this.speed)*Math.min(1,dt*4);
+        this.shake=Math.max(0,this.shake-dt);
+        this.updateTargets(moving);this.updatePlayer(dt,moving);
+        if(moving||this.dirty){this.paint();this.dirty=false;}
+        this.status.textContent=this.boostRemaining>0?'BOOST':this.targetIndex!==null?'TRACKING':'CRUISING';
+        this.canvas.parentElement.classList.toggle('flight-boost',this.boostRemaining>0&&!this.motion.matches);
+      }
+      this.raf=requestAnimationFrame(tick);
+    };
+    this.resize();this.raf=requestAnimationFrame(tick);
+  }
+  setMode(mode){this.mode=mode;this.dirty=true;if(mode!=='play'){this.targets=[];this.targetIndex=null;}if(mode==='play')this.boost(1.2);}
+  setTargets(elements){this.targets=elements;this.formationAge=0;this.targetIndex=null;this.destination=.5;this.updateTargets(!this.motion.matches);this.boost(.95);}
+  track(index){this.targetIndex=index;}
+  pause(value){this.paused=value;this.previous=0;}
+  boost(seconds=.7){this.boostRemaining=seconds;}
+  impact(){this.shake=.22;this.boost(.3);}
+  updateTargets(moving){
+    const narrow=this.width<720;
+    this.targets.forEach((target,index)=>{
+      const phase=this.time*.95+index*1.55;
+      const remaining=moving?Math.max(0,1-this.formationAge/(1.05+index*.12)):0;
+      const x=moving?Math.sin(phase)*(narrow?6:14):0;
+      const y=moving?Math.cos(phase*1.3)*(narrow?5:9):0;
+      target.style.transform=`translate3d(${x.toFixed(2)}px,${y.toFixed(2)}px,0)`;
+      target.style.opacity='1';
+      target.style.setProperty('--enemy-bank',moving?`${(Math.sin(phase+.5)*7).toFixed(1)}deg`:'0deg');
+      const body=target.querySelector('.enemy-body');
+      if(body){
+        const scale=(1-remaining*.73)*(moving?1+Math.sin(phase*.67)*.14:1);
+        const yaw=moving?Math.sin(phase+.8)*22:0;
+        const pitch=moving?Math.cos(phase*.72)*11:0;
+        // Only the aircraft changes size; answer text keeps its readable size.
+        body.style.transform=`perspective(550px) translateY(${-remaining*(narrow?46:74)}px) rotateX(${pitch.toFixed(1)}deg) rotateY(${yaw.toFixed(1)}deg) rotateZ(var(--enemy-bank)) scale(${scale.toFixed(3)})`;
+        body.style.opacity=String(1-remaining*.55);
+      }
+    });
+  }
+  updatePlayer(dt,moving){
+    if(this.mode!=='play')return;
+    const zone=this.zone.getBoundingClientRect();if(!zone.width)return;
+    const target=this.targets[this.targetIndex];
+    if(target){const box=target.getBoundingClientRect();this.destination=clamp((box.left+box.width/2-zone.left)/zone.width,.07,.93);}
+    else this.destination=.5+(moving?Math.sin(this.time*.85)*.11:0);
+    const error=this.destination-this.position;
+    this.position+=error*(moving?Math.min(1,dt*6):1);
+    const desired=moving?clamp(error*110,-19,19)+Math.sin(this.time*2.1)*1.6:0;
+    this.bank+=(desired-this.bank)*(moving?Math.min(1,dt*8):1);
+    this.rig.style.left=`${(this.position*100).toFixed(3)}%`;
+    const pitch=moving?12+Math.sin(this.time*1.3)*4:12;
+    this.rig.style.transform=`translate(-50%,${moving?(Math.sin(this.time*3.4)*4).toFixed(2):0}px) perspective(650px) rotateX(${pitch.toFixed(1)}deg) rotateY(${(-this.bank*.7).toFixed(2)}deg) rotateZ(${this.bank.toFixed(2)}deg)`;
+  }
+  projection(){
+    const horizon=this.height*.23,focal=Math.min(this.width*.85,this.height*1.15),near=240,far=3000;
+    return{horizon,focal,near,far,altitude:(this.height-horizon)*near/focal,cameraX:(this.position-.5)*100};
+  }
+  project(x,y,z,camera=this.projection()){
+    const scale=camera.focal/Math.max(camera.near*.5,z);
+    return{x:this.width*.5+(x-camera.cameraX)*scale,y:camera.horizon+(camera.altitude-y)*scale,scale};
+  }
+  paint(){
+    const c=this.ctx;if(!c)return;
+    const w=this.width,h=this.height,d=this.distance,camera=this.projection();
+    const {horizon,near,far,altitude}=camera;
+    c.clearRect(0,0,w,h);
+    const sky=c.createLinearGradient(0,0,0,horizon+50);sky.addColorStop(0,'#6eb7d7');sky.addColorStop(.72,'#b7e8ee');sky.addColorStop(1,'#e3f9ed');c.fillStyle=sky;c.fillRect(0,0,w,h);
+    c.save();
+    // A slight camera roll connects the banking plane to the world around it.
+    const roll=this.motion.matches?0:this.bank*.0012;
+    c.translate(w/2,horizon);c.rotate(roll);c.translate(-w/2,-horizon);
+    if(this.shake>0&&!this.motion.matches)c.translate(Math.sin(this.time*92)*3,Math.cos(this.time*83)*2);
+    const sea=c.createLinearGradient(0,horizon,0,h);sea.addColorStop(0,'#a0d9da');sea.addColorStop(.2,'#7ac9d1');sea.addColorStop(1,'#4bafbc');c.fillStyle=sea;c.fillRect(-50,horizon,w+100,h+100);
+    // Distant cliffs and a bright horizon establish the vanishing point.
+    c.fillStyle='#70b5ba55';c.beginPath();c.moveTo(-50,horizon+8);
+    for(let i=0;i<=15;i++){const x=i*w/14;c.lineTo(x,horizon-8-Math.sin(i*1.9)*6-Math.cos(i*.7)*8);}c.lineTo(w+50,horizon+14);c.closePath();c.fill();
+    const sun=c.createRadialGradient(w*.78,horizon*.43,4,w*.78,horizon*.43,60);sun.addColorStop(0,'#fffbd5dd');sun.addColorStop(.42,'#fffbd58a');sun.addColorStop(1,'#fffbd500');c.fillStyle=sun;c.fillRect(w*.78-60,horizon*.43-60,120,120);
+    // Ocean ripples expand as their world-space depth approaches the camera.
+    for(let row=0;row<25;row++){
+      const z=near+wrap(row*118-d*2.5,far-near);
+      const center=this.project(0,0,z,camera);
+      const span=Math.min(w*2,20*center.scale);
+      c.strokeStyle=`rgba(220,255,248,${(.08+.16*center.scale).toFixed(3)})`;c.lineWidth=Math.max(.5,center.scale*.9);
+      for(let col=-12;col<=12;col++){
+        const p=this.project(col*110+Math.sin(row*2.4)*27,0,z,camera);
+        if(p.x< -100||p.x>w+100)continue;
+        c.beginPath();c.moveTo(p.x-span,p.y);c.quadraticCurveTo(p.x,p.y+3*center.scale,p.x+span,p.y);c.stroke();
+      }
+    }
+    // World objects are depth-sorted, then projected onto the same camera plane.
+    const objects=[];
+    for(let i=0;i<10;i++){
+      const z=near+wrap(i*311-d*2.5,far-near);
+      const x=(i%2?1:-1)*(290+(i%3)*145);
+      objects.push({type:'island',x,y:0,z,size:.95+(i%3)*.18,seed:i});
+    }
+    for(let i=0;i<12;i++){
+      const z=near+wrap(i*253+180-d*3.2,far-near);
+      const x=(i%2?1:-1)*(210+(i%3)*160);
+      const y=altitude*(i%3===0?1.28:i%3===1?.58:1.75);
+      objects.push({type:'cloud',x,y,z,size:1.35+(i%3)*.2});
+    }
+    objects.sort((a,b)=>b.z-a.z).forEach(object=>{
+      const point=this.project(object.x,object.y,object.z,camera),scale=point.scale*object.size;
+      if(point.x< -320*scale||point.x>w+320*scale||point.y< -150*scale||point.y>h+150*scale)return;
+      c.save();c.globalAlpha=clamp(1.35-object.z/far,.3,1);
+      if(object.type==='island')this.island(c,point.x,point.y,scale,object.seed);
+      else this.cloud(c,point.x,point.y,scale,.84);
+      c.restore();
+    });
+    const haze=c.createLinearGradient(0,horizon-18,0,horizon+65);haze.addColorStop(0,'#e3f9ed00');haze.addColorStop(.25,'#e3f9ed70');haze.addColorStop(1,'#e3f9ed00');c.fillStyle=haze;c.fillRect(-50,horizon-18,w+100,83);
+    // Streaks radiate from depth, not vertically down a flat screen.
+    c.lineCap='round';
+    for(let i=0;i<28;i++){
+      const z=near+wrap(i*137-d*6,far-near),x=(i%2?1:-1)*(360+(i%5)*100),y=altitude*((i%7)/5);
+      const head=this.project(x,y,z,camera),tail=this.project(x,y,z+45+this.speed*15,camera);
+      c.strokeStyle=`rgba(238,255,250,${clamp(head.scale*.3,.06,.6)})`;c.lineWidth=clamp(head.scale, .5,2.5);
+      c.beginPath();c.moveTo(tail.x,tail.y);c.lineTo(head.x,head.y);c.stroke();
+    }
+    c.restore();
+  }
+  cloud(c,x,y,s,alpha){
+    c.save();c.translate(x,y);c.scale(s,s);c.globalAlpha*=alpha;const shade=c.createLinearGradient(0,-40,0,42);shade.addColorStop(0,'#fffef5');shade.addColorStop(.6,'#e9f9f6');shade.addColorStop(1,'#9bcbd5');c.fillStyle=shade;
+    c.beginPath();c.ellipse(-45,7,53,22,0,0,Math.PI*2);c.ellipse(2,-5,54,36,0,0,Math.PI*2);c.ellipse(51,9,47,21,0,0,Math.PI*2);c.fill();
+    c.globalAlpha*=.2;c.fillStyle='#5b9eae';c.beginPath();c.ellipse(15,29,94,12,0,0,Math.PI*2);c.fill();c.restore();
+  }
+  island(c,x,y,s,seed){
+    c.save();c.translate(x,y);c.scale(s,s);
+    const shape=()=>{c.beginPath();c.moveTo(-104,-17);c.bezierCurveTo(-105,-70,-48,-90,9,-71);c.bezierCurveTo(61,-103,124,-56,110,-13);c.bezierCurveTo(154,29,75,63,22,53);c.bezierCurveTo(-38,80,-114,46,-104,-17);c.closePath();};
+    c.save();c.translate(10,22);c.scale(1,.5);shape();c.fillStyle='#286d8130';c.fill();c.restore();
+    c.save();c.translate(0,12);c.scale(1,.48);shape();c.fillStyle='#9a9469';c.fill();c.restore();
+    c.save();c.scale(1,.48);shape();c.fillStyle='#e5d6a2';c.fill();c.strokeStyle='#bdad7b';c.lineWidth=2;c.stroke();
+    c.scale(.86,.82);shape();c.fillStyle='#83c7a7';c.fill();c.strokeStyle='#62ab91';c.stroke();c.restore();
+    for(let j=0;j<5;j++){
+      const tx=-62+j*28,ty=Math.sin(j*3+seed)*12;
+      c.fillStyle='#4a9a86';c.beginPath();c.ellipse(tx+4,ty+6,17,9,0,0,Math.PI*2);c.fill();
+      c.fillStyle='#738663';c.fillRect(tx-2,ty-10,4,17);
+      c.fillStyle=j%2?'#489b78':'#64b88b';c.beginPath();c.ellipse(tx,ty-14,12,16,0,0,Math.PI*2);c.fill();
+      c.fillStyle='#a4d59c';c.beginPath();c.ellipse(tx-4,ty-21,6,8,0,0,Math.PI*2);c.fill();
+    }
+    c.restore();
+  }
+}
+
+const $=id=>document.getElementById(id);
+let run=null,mode='intro',busy=false,dialogKind='',soundOn=false,audioCtx=null;
+let lockTimer=null,lockedIndex=null,lockGeneration=0;
+const dialog=$('dialog');
+const flight=new FlightScene($('flight-world'),$('player-rig'),$('flight-zone'),$('flight-status'));
+const escapeHTML=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const sourceLabel=q=>`第115回（2026年）${q.session} 第${q.number}問`;
+const reducedMotion=()=>matchMedia('(prefers-reduced-motion: reduce)').matches;
+function announce(message){$('announce').textContent=message;}
+function sound(kind){
+  if(!soundOn)return;
+  try{
+    audioCtx??=new(window.AudioContext||window.webkitAudioContext)();
+    if(audioCtx.state==='suspended')audioCtx.resume();
+    const notes={select:[470],lock:[880,1175],shot:[1100,640,350],correct:[523,659,784,1047],wrong:[220,175],hint:[392,523],complete:[523,659,784,1047,784,1047]};
+    (notes[kind]||notes.select).forEach((frequency,i)=>{const start=audioCtx.currentTime+i*.09;const oscillator=audioCtx.createOscillator(),gain=audioCtx.createGain();oscillator.type='triangle';oscillator.frequency.setValueAtTime(frequency,start);gain.gain.setValueAtTime(0,start);gain.gain.linearRampToValueAtTime(.055,start+.009);gain.gain.exponentialRampToValueAtTime(.001,start+.16);oscillator.connect(gain);gain.connect(audioCtx.destination);oscillator.start(start);oscillator.stop(start+.18);});
+  }catch{soundOn=false;updateSoundButton();}
+}
+function updateSoundButton(){$('sound-label').textContent=soundOn?'ON':'OFF';$('sound').setAttribute('aria-pressed',String(soundOn));$('sound').setAttribute('aria-label',`効果音を${soundOn?'オフ':'オン'}にする`);}
+function setMode(next){mode=next;$('app').className=`mode-${next}`;$('intro').hidden=next!=='intro';$('play').hidden=next!=='play';$('result').hidden=next!=='result';$('play-console').hidden=next!=='play';$('idle-console').hidden=next==='play';flight.setMode(next);}
+function cancelLock(){clearTimeout(lockTimer);lockTimer=null;lockedIndex=null;lockGeneration++;}
+function syncHUD(){
+  $('score').textContent=String(run?.score||0).padStart(4,'0');
+  const count=run?.mistakes||0;
+  [...$('cards').children].forEach((card,i)=>{card.className=i<count?(i===1?'active danger':'active'):'';});
+  $('cards').setAttribute('aria-label',`誤答${count}回、2回でゲームオーバー`);
+}
+function start(){closeDialog();run=new GameRun(questions);busy=false;setMode('play');renderQuestion();sound('select');}
+function renderQuestion(){
+  cancelLock();
+  const q=run.question;
+  syncHUD();$('topic').textContent=q.topic;$('question-number').textContent=String(run.index+1).padStart(2,'0');$('question-count').textContent=`${String(run.index+1).padStart(2,'0')} / 05`;
+  $('question').textContent=q.question;$('question-source').textContent=sourceLabel(q);
+  $('progress').innerHTML=questions.map((_,i)=>`<i class="${i===run.index?'current':(run.records[i]?.type||'')}" aria-hidden="true"></i>`).join('');
+  $('enemies').innerHTML=q.options.map((text,i)=>`<button class="enemy-button" data-option="${i}" aria-label="選択肢${i+1}：${escapeHTML(text)}。ロックオンする" aria-pressed="false"><span class="answer-label"><span class="answer-number">${i+1}</span><span>${escapeHTML(text)}</span></span><span class="enemy-body"><span class="enemy-exhaust" aria-hidden="true"></span><svg class="enemy-ship" viewBox="0 0 160 120" aria-hidden="true"><use href="#enemy"/></svg><span class="reticle" aria-hidden="true"><i></i><b>LOCKING</b></span></span></button>`).join('');
+  $('enemies').querySelectorAll('button').forEach(button=>button.addEventListener('click',()=>select(Number(button.dataset.option))));
+  flight.setTargets([...$('enemies').children]);
+  $('selection-label').textContent='敵を選んでロックオン';$('aim-instruction').textContent='動く敵を選んでロックオン。内容を確認してから発射';
+  $('fire').disabled=true;$('hint').disabled=false;$('effects').replaceChildren();
+  $('question').tabIndex=-1;$('question').focus({preventScroll:true});
+  announce(`第${run.index+1}問。${q.question}`);
+}
+function select(index){
+  if(busy||dialog.open||!run?.select(index))return;
+  cancelLock();const generation=lockGeneration;
+  $('enemies').querySelectorAll('button').forEach((button,i)=>{button.classList.toggle('selected',i===index);button.classList.toggle('acquiring',i===index);button.classList.remove('locked');button.setAttribute('aria-pressed',String(i===index));button.querySelector('.reticle b').textContent='LOCKING';});
+  flight.track(index);
+  $('selection-label').textContent=`ロックオン中：${index+1}「${run.question.options[index]}」`;
+  $('aim-instruction').textContent='照準を合わせています…';$('fire').disabled=true;sound('select');
+  lockTimer=setTimeout(()=>{
+    if(generation!==lockGeneration||mode!=='play'||busy||run?.phase!=='playing'||run.selected!==index)return;
+    lockedIndex=index;const target=$('enemies').children[index];target.classList.remove('acquiring');target.classList.add('locked');target.querySelector('.reticle b').textContent='LOCK ON';
+    $('selection-label').textContent=`追尾中：${index+1}「${run.question.options[index]}」`;
+    $('aim-instruction').textContent='ロックオン完了。答えに確信が持てたら発射。';$('fire').disabled=false;sound('lock');
+    announce(`選択肢${index+1}にロックオン。${run.question.options[index]}。発射できます。`);
+  },reducedMotion()?0:420);
+}
+const delay=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+async function fireHomingVolley(target){
+  const arena=$('play'),ship=$('player');
+  const bounds=arena.getBoundingClientRect(),launch=ship.getBoundingClientRect();
+  const startX=launch.left+launch.width/2-bounds.left,startY=launch.top+launch.height*.26-bounds.top;
+  const bullets=[-1,1].map(side=>{const node=document.createElement('span');node.className='shot homing-shot';$('effects').append(node);return{node,side,x:startX+side*20,y:startY+10};});
+  const started=performance.now(),duration=420;
+  $('player-rig').classList.add('firing');flight.boost(.65);
+  await new Promise(resolve=>{
+    function step(now){
+      const progress=Math.min(1,(now-started)/duration),box=target.querySelector('.enemy-body').getBoundingClientRect(),area=arena.getBoundingClientRect();
+      const goalX=box.left+box.width/2-area.left,goalY=box.top+box.height*.5-area.top;
+      bullets.forEach(bullet=>{
+        const curve=Math.sin(progress*Math.PI)*bullet.side*35;
+        const x=startX+(goalX-startX)*progress+bullet.side*20*(1-progress)+curve;
+        const y=startY+(goalY-startY)*progress;
+        const angle=Math.atan2(goalX-x,-(goalY-y))*180/Math.PI;
+        const depthScale=1-progress*.48;
+        bullet.node.style.left=`${x}px`;bullet.node.style.top=`${y}px`;bullet.node.style.transform=`translate(-50%,-50%) rotate(${angle}deg) scale(${depthScale})`;
+        bullet.x=x;bullet.y=y;
+      });
+      if(progress<1)requestAnimationFrame(step);else{bullets.forEach(b=>b.node.remove());resolve();}
+    }
+    requestAnimationFrame(step);
+  });
+  $('player-rig').classList.remove('firing');
+}
+function explode(target,correct){
+  if(reducedMotion())return;
+  const area=$('play').getBoundingClientRect(),enemy=target.querySelector('.enemy-body').getBoundingClientRect();
+  const x=enemy.left+enemy.width/2-area.left,y=enemy.top+enemy.height/2-area.top;
+  const add=(className,text='')=>{const node=document.createElement('span');node.className=className;node.textContent=text;node.style.left=`${x}px`;node.style.top=`${y}px`;$('effects').append(node);setTimeout(()=>node.remove(),1100);return node;};
+  add('impact-ring');add('burst','✹');
+  for(let i=0;i<16;i++){const particle=add(`impact-particle ${i%3===0?'mint-particle':''}`);const angle=i*Math.PI*2/16;const radius=38+(i%4)*15;particle.style.setProperty('--dx',`${Math.cos(angle)*radius}px`);particle.style.setProperty('--dy',`${Math.sin(angle)*radius}px`);particle.style.setProperty('--turn',`${i*61}deg`);}
+  const label=add(`floating-points ${correct?'':'points-warning'}`,correct?'+100':'!');label.style.top=`${y-20}px`;
+  flight.impact();
+}
+async function fire(){
+  if(busy||dialog.open||!run||run.selected===null||lockedIndex!==run.selected||run.phase!=='playing')return;
+  busy=true;const index=run.selected,record=run.submit();
+  $('fire').disabled=true;$('hint').disabled=true;$('enemies').querySelectorAll('button').forEach(b=>b.disabled=true);
+  const target=$('enemies').children[index];sound('shot');
+  if(!reducedMotion())await fireHomingVolley(target);
+  explode(target,record.type==='correct');
+  target.classList.add('hit');if(record.type==='wrong')target.classList.add('wrong');syncHUD();sound(record.type==='correct'?'correct':'wrong');
+  await delay(reducedMotion()?60:850);busy=false;showFeedback(record);
+}
+function showDialog(kind,html){
+  dialogKind=kind;$('dialog-body').innerHTML=html;
+  if(!dialog.open)dialog.showModal();document.body.classList.add('motion-paused');flight.pause(true);
+  $('dialog-body').querySelectorAll('[data-action]').forEach(button=>button.addEventListener('click',()=>action(button.dataset.action)));
+}
+function closeDialog(){if(dialog.open)dialog.close();dialogKind='';document.body.classList.remove('motion-paused');flight.pause(false);}
+function hint(){
+  if(busy||!run||run.phase!=='playing')return;
+  if(run.hintLevel===0)run.hint();sound('hint');renderHint();
+}
+function renderHint(){
+  const q=run.question,level=run.hintLevel;
+  showDialog('hint',`<div class="dialog-top"><span class="dialog-kicker">CHECK FIRST. FLY SAFE.</span><button class="close-button" data-action="close" aria-label="問題に戻る">×</button></div><h2>確認することも、いい判断。</h2><p class="small">ヒントを使っても、減点・イエローカードはありません。</p>${q.hints.slice(0,level).map((text,i)=>`<div class="hint-box"><b>HINT ${i+1} / 2</b>${escapeHTML(text)}</div>`).join('')}<div class="dialog-actions"><button class="main-action" data-action="close">問題に戻って考える</button>${level<q.hints.length?'<button class="secondary-action" data-action="more-hint">もう少しヒント</button>':''}</div><button class="text-button" data-action="skip">まだわからないので、解説で確認する</button><p class="small">解説で答えを確認した問題は0点。誤答カードは付きません。</p>`);
+}
+function showFeedback(record){
+  const q=run.question,correct=record.type==='correct',skipped=record.type==='skip',over=run.phase==='gameover';
+  const title=correct?'正解！ ナイスショット。':skipped?'立ち止まって、理解しよう。':over?'2回目の誤答。パトロール終了。':'1回目の誤答。イエローカード。';
+  const badge=correct?'✓':skipped?'?':over?'×':'!';
+  const next=over?'結果と復習を見る':run.index===questions.length-1?'5問の結果を見る':'次の問題へ';
+  showDialog('feedback',`<div class="dialog-top"><span class="dialog-kicker">${correct?'+100 POINTS':skipped?'LEARN & CONTINUE':over?'GAME OVER':'YELLOW CARD'}</span><span class="small">${run.index+1} / 5</span></div><div class="feedback-badge ${correct||skipped?'':over?'over':'warning'}">${badge}</div><h2 class="feedback-title">${title}</h2>${record.type==='wrong'?`<p class="small">選んだ答え：${record.selected+1}. ${escapeHTML(q.options[record.selected])}</p>`:''}<div class="correct-answer"><span>正解</span><b>${q.answer+1}. ${escapeHTML(q.options[q.answer])}</b></div><span class="explanation-label">なぜ、この答え？</span><p>${escapeHTML(q.explanation)}</p>${record.type==='wrong'?`<p class="yellow-note">${over?'次は、迷ったところでヒントを使ってみよう。':'このプレイ中にもう一度誤答すると終了です。迷ったら、ヒントで確認しよう。'}</p>`:correct&&record.hintLevel>0?'<p class="small">ヒントを確認して正解できました。得点は同じ100点です。</p>':''}<p class="small">${sourceLabel(q)} · 解説は教材独自作成</p><div class="dialog-actions"><button class="main-action" data-action="continue">${next}</button></div>`);
+  announce(title);
+}
+function showResult(){
+  const s=run.stats,over=run.phase==='gameover';setMode('result');syncHUD();
+  $('result').innerHTML=`<div class="result-head"><div class="result-kicker">${over?'PATROL STOPPED':'PATROL COMPLETE'}</div><h2>${over?'いったん着陸。次につなげよう。':'5問のパトロール、おつかれさま！'}</h2><p class="result-subtitle">${over?'取り違えた知識を確認して、もう一度。':'知識と、確認する力を持ち帰ろう。'}<br>わからない時に立ち止まることも、大切な判断です。</p></div><div class="result-stats"><div class="result-stat"><b>${s.score}</b><span>得点 / 500</span></div><div class="result-stat"><b>${s.correct}<small> / 5</small></b><span>正解数</span></div><div class="result-stat"><b>${s.withHint}</b><span>ヒントを使って正解</span></div><div class="result-stat"><b>${s.checked}</b><span>解説で確認</span></div></div><h3 class="review-title">今回の振り返り <span class="small">· タップで解説</span></h3><div class="review-list">${questions.map((q,i)=>{const record=run.records.find(r=>r.id===q.id),type=record?.type||'unseen';const status={correct:record?.hintLevel?'ヒントで正解':'正解',wrong:'誤答',skip:'解説で確認',unseen:'未挑戦'}[type];return `<details><summary><span class="review-dot ${type}">${{correct:'✓',wrong:'!',skip:'?',unseen:'·'}[type]}</span><span class="review-topic">${i+1}. ${escapeHTML(q.topic)}</span><span class="review-status">${status}</span></summary><p>${escapeHTML(q.question)}</p>${record?.type==='wrong'?`<p>選んだ答え：${escapeHTML(q.options[record.selected])}</p>`:''}<p class="review-answer">正解：${q.answer+1}. ${escapeHTML(q.options[q.answer])}</p><p>${escapeHTML(q.explanation)}</p><p class="small">${sourceLabel(q)}</p></details>`;}).join('')}</div><div class="result-actions"><button class="primary-button" id="retry"><span class="button-spark">✦</span> もう一度パトロール</button><button class="text-button" id="result-home">タイトルに戻る</button></div>`;
+  $('retry').addEventListener('click',start);$('result-home').addEventListener('click',home);$('result').focus({preventScroll:true});
+  sound(over?'wrong':'complete');announce(`${over?'ゲームオーバー':'5問終了'}。${s.score}点、正解${s.correct}問、誤答${s.mistakes}回。`);
+}
+function home(){cancelLock();closeDialog();run=null;busy=false;setMode('intro');syncHUD();$('start').focus({preventScroll:true});}
+function action(name){
+  if(name==='close')closeDialog();
+  if(name==='more-hint'){run.hint();renderHint();}
+  if(name==='skip'){const record=run.skip();if(record){closeDialog();syncHUD();showFeedback(record);}}
+  if(name==='continue'){closeDialog();if(run.phase==='gameover'){showResult();return;}run.advance();if(run.phase==='complete')showResult();else renderQuestion();}
+  if(name==='home')home();
+}
+function howto(){
+  if(busy||dialog.open)return;
+  showDialog('info',`<div class="dialog-top"><span class="dialog-kicker">HOW TO PLAY</span><button class="close-button" data-action="close" aria-label="閉じる">×</button></div><h2>確認してから、撃とう。</h2><ol class="sources-list"><li>旋回する4体の敵から、正しい答えを掲げた敵を選びます。答えの札をタップしても選べます。</li><li>照準が収束して「LOCK ON」になると、自機が敵を追尾します。</li><li>内容を確認し、「この敵を撃つ」で発射。追尾弾が選んだ敵に命中します。正解は100点です。</li><li>誤答1回でイエローカード。同じプレイ中の2回目でゲームオーバー。正解してもカードは消えません。</li><li>「わからない」で2段階のヒント。減点もカードもありません。ヒント・解説を開くと飛行演出は一時停止します。</li><li>さらに迷う時は「解説で確認する」。0点で次に進み、復習に残します。</li></ol><p class="small">キーボード：1〜4／左右キーで敵を選択、Spaceで発射、Hでヒント。時間制限はありません。右上の♪で効果音をオンにできます。OSの「動きを減らす」設定では演出を抑えます。</p><div class="dialog-actions"><button class="main-action" data-action="close">わかりました</button></div>`);
+}
+function showSources(){
+  if(busy||dialog.open)return;
+  showDialog('info',`<div class="dialog-top"><span class="dialog-kicker">QUESTION CREDITS</span><button class="close-button" data-action="close" aria-label="閉じる">×</button></div><h2>問題・出典について</h2><p class="small">出典：厚生労働省「第115回看護師国家試験の問題および正答」。問題文・選択肢は空白・改行を整えて掲載し、公式正答値表と照合しています。</p><ul class="sources-list"><li><a href="${sources.page}" target="_blank" rel="noopener">公式の問題・正答公開ページ</a></li><li><a href="${sources.am}" target="_blank" rel="noopener">午前の問題PDF</a>：第3問・第11問</li><li><a href="${sources.pm}" target="_blank" rel="noopener">午後の問題PDF</a>：第6問・第11問・第12問</li><li><a href="${sources.answers}" target="_blank" rel="noopener">公式正答値表</a></li></ul><p class="small">必修区分は一般的な「午前・午後の各1〜25問」の分類に基づき選定しています。厚生労働省の問題冊子には必修箇所が明記されていません。<a href="${sources.classification}" target="_blank" rel="noopener">分類について</a></p><p class="small">本教材は公開資料をもとに独自に編集・ゲーム化したものです。ヒント・解説・画像・音は教材独自作成で、厚生労働省による作成・推奨ではありません。解説は下記資料で確認していますが、看護教員による監修は未実施の試作です。</p><ul class="sources-list">${questions.map(q=>`<li>${q.topic}：<a href="${q.reference}" target="_blank" rel="noopener">${q.referenceName}</a></li>`).join('')}</ul><p class="small"><a href="${sources.terms}" target="_blank" rel="noopener">厚生労働省の利用規約</a> · <a href="${sources.license}" target="_blank" rel="noopener">公共データ利用規約（PDL1.0）</a><br>確認日：2026年11月19日。学習履歴はこのプレイ中のみ保持します。</p><div class="dialog-actions"><button class="main-action" data-action="close">閉じる</button></div>`);
+}
+$('start').addEventListener('click',start);$('fire').addEventListener('click',fire);$('hint').addEventListener('click',hint);$('howto').addEventListener('click',howto);$('sources').addEventListener('click',showSources);
+$('sound').addEventListener('click',()=>{soundOn=!soundOn;updateSoundButton();if(soundOn)sound('select');});
+$('home-button').addEventListener('click',()=>{if(busy||dialog.open)return;if(mode!=='play'){home();return;}showDialog('confirm',`<div class="dialog-top"><span class="dialog-kicker">RETURN TO BASE</span></div><h2>パトロールを中断しますか？</h2><p>今回の得点と誤答カードをリセットし、タイトルに戻ります。</p><div class="dialog-actions"><button class="main-action" data-action="close">続ける</button><button class="secondary-action" data-action="home">タイトルに戻る</button></div>`);});
+dialog.addEventListener('cancel',event=>{if(dialogKind==='feedback'){event.preventDefault();return;}document.body.classList.remove('motion-paused');dialogKind='';flight.pause(false);});
+dialog.addEventListener('close',()=>{if(!dialog.open){document.body.classList.remove('motion-paused');flight.pause(false);}});
+document.addEventListener('keydown',event=>{
+  if(event.repeat||dialog.open||busy||event.altKey||event.ctrlKey||event.metaKey)return;
+  if(mode==='intro'&&event.key==='Enter'&&document.activeElement?.tagName!=='BUTTON'){event.preventDefault();start();return;}
+  if(mode!=='play'||run?.phase!=='playing')return;
+  if(/^[1-4]$/.test(event.key)){event.preventDefault();select(Number(event.key)-1);}
+  else if(event.key==='ArrowLeft'||event.key==='ArrowRight'){event.preventDefault();select(run.selected===null?0:(run.selected+(event.key==='ArrowRight'?1:3))%4);}
+  else if(event.code==='Space'&&!['BUTTON','A','INPUT','TEXTAREA'].includes(document.activeElement?.tagName)){event.preventDefault();fire();}
+  else if(event.code==='Space'&&document.activeElement?.classList.contains('enemy-button')){event.preventDefault();fire();}
+  else if(event.key.toLowerCase()==='h'){event.preventDefault();hint();}
+});
+
+})();
+</script>
+</body>
+</html>
